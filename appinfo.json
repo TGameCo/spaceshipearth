@@ -39,7 +39,7 @@
     "shortName": "Spaceship Earth",
     "uuid": "3272a79b-7e10-4ee7-9411-1e1044895bf5",
     "versionCode": 1,
-    "versionLabel": "1.3",
+    "versionLabel": "1.4",
     "watchapp": {
         "watchface": true
     }
