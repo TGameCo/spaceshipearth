@@ -1,0 +1,46 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "thomas@stoeckert.us",
+    "longName": "Spaceship Earth",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/ss_pattern_backer.png",
+                "name": "PATTERN_BACKER",
+                "type": "png"
+            },
+            {
+                "file": "images/ss_over_backer.png",
+                "name": "OVER_BACKER",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/ss_date_backer.png",
+                "name": "DATE_BACKER",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/ss_time_backer.png",
+                "name": "TIME_BACKER",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/ss_ampm_backer.png",
+                "name": "AMPM_BACKER",
+                "type": "png-trans"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Spaceship Earth",
+    "uuid": "3272a79b-7e10-4ee7-9411-1e1044895bf5",
+    "versionCode": 1,
+    "versionLabel": "1.3",
+    "watchapp": {
+        "watchface": true
+    }
+}
