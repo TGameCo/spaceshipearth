@@ -133,7 +133,7 @@ static void update_time() {
     strftime(buffer, sizeof("00:00"), "%H:%M", tick_time);
     strftime(hour, sizeof("00"), "%H", tick_time);
     intH = atoi(hour);
-    if(8 < intH && intH < 20){
+    if(7 < intH && intH < 20){
       layer_set_hidden(inverter_layer_get_layer(s_invert_layer), true);
     } else {
       layer_set_hidden(inverter_layer_get_layer(s_invert_layer), false);
@@ -144,9 +144,9 @@ static void update_time() {
     strftime(ampm, sizeof("PM"), "%p", tick_time);
     strftime(hour, sizeof("00"), "%I", tick_time);
     intH = atoi(hour);
-    APP_LOG(APP_LOG_LEVEL_INFO, hour);
+    //APP_LOG(APP_LOG_LEVEL_INFO, hour);
     if(strcmp(ampm, "PM") == 0){
-      if(intH >= 8 && intH < 12){
+      if(intH >= 7 && intH < 12){
         APP_LOG(APP_LOG_LEVEL_INFO, "Night");
         layer_set_hidden(inverter_layer_get_layer(s_invert_layer), false);
       } else {
